@@ -1,0 +1,20 @@
+<table class="table" border="1">
+    <tr>
+        <th>Id</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        
+    </tr>
+    <tr *ngFor="let d of fdata">
+        <td>{{d.id}}</td>
+        <td>{{d.Firstname}}</td>
+        <td>{{d.lastname}}</td>
+        
+        <!-- <td>
+                <button type="submit" (click)="ed(d)" class="btn btn-primary">Edit</button>&nbsp;
+                <button type="submit" (click)="del(d)" class="btn btn-primary">Delete</button>
+        </td>       -->
+               
+        
+    </tr>
+</table>
